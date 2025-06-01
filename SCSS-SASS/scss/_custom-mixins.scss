@@ -1,0 +1,13 @@
+@mixin placeToCenter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin textStyle($arg1, $arg2){
+    color: $tag-color;
+    font-size: 2rem + $fs;
+    text-transform: $arg1;
+    letter-spacing: $arg2;
+}

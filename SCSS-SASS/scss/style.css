@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: yellowgreen;
+}
+.container p {
+  color: rgb(205, 50, 84);
+  font-size: 5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container h4 {
+  color: rgb(205, 50, 84);
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container h4:hover {
+  color: slateblue;
+}
+.container h4::after {
+  content: " style.";
+}/*# sourceMappingURL=style.css.map */

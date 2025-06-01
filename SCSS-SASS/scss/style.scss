@@ -1,0 +1,34 @@
+@import 'vars';
+@import 'custom-mixins';
+
+// single line comment
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    @include placeToCenter;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellowgreen;
+    p{
+        @include textStyle(capitalize,0.4rem);
+        // color: $tag-color; // use var
+        // font-size: 2rem + $fs; // can use any mathematical operation +,-,*,/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    h4{
+        @include textStyle(uppercase,0.8rem);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        &:hover{
+            color: slateblue;
+        }
+        &::after{
+            content: " style.";
+        }
+    }
+
+}
