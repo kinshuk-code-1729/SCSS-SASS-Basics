@@ -1,4 +1,6 @@
 # SCSS-SASS-Basics
+![image](https://github.com/user-attachments/assets/401d9bd2-8fbf-461a-af59-aaa272199a01)
+
 ## Topics Covered:
 
 - SASS basics: variables, nesting, and operators
