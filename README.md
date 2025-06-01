@@ -1,2 +1,11 @@
 # SCSS-SASS-Basics
-A repository for learning and exploring the fundamentals of SCSS (Sassy CSS) and SASS (Syntactically Awesome StyleSheets). This repo covers the basics of SASS, including variables, nesting, mixins, functions, and more.
+## Topics Covered:
+
+- SASS basics: variables, nesting, and operators
+- Mixins and functions
+- Control directives (if/else, for loops, etc.)
+- Best practices for organizing and structuring SASS code
+
+## Purpose:
+
+This repo serves as a starting point for developers looking to learn SASS and improve their CSS skills. It provides examples, code snippets, and exercises to help you get started with SASS.
